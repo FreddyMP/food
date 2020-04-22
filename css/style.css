@@ -1,0 +1,61 @@
+#fondo-top
+{
+    background-color: black;
+}
+#top
+{
+   background-image: url("../imagenes/superior.png");
+   background-size: auto;
+   height: 750px;
+}
+#texto
+{
+    color:white;
+     left:20%;
+     position:absolute;
+     top:250px;
+}
+#cerrar
+{
+    font-size:30px; 
+    float:right;
+    margin-right:15px;
+    margin-top:-60px;
+}
+#icono_menu
+{
+    float:right; 
+    margin-right:10%;
+    margin-top: 5%;
+}
+#acerca
+{
+    margin-top: 290px;
+    background-color: blue;
+}
+#menu
+{
+    display:none;
+    background-color: #a6e66e ;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    left:35%;
+    top:100px;
+    border-radius: 4px;
+    box-shadow: black 2px 2px 2px;
+    z-index: 80;
+}
+
+@media only screen and (max-width: 600px)
+{
+    #menu
+{
+    background-color: #a6e66e ;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left:17%;
+}
+
+}
