@@ -30,8 +30,24 @@
 }
 #acerca
 {
-    margin-top: 290px;
-    background-color: blue;
+    margin-top: 320px;
+    
+}
+#texto-acerca
+{   
+    margin-right: 10%;
+}
+.img-acerca
+{
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.cartel
+{
+    background-color:#a6e66e; 
+    width:250px;
+     height:1px;
+     position:absolute;
 }
 #menu
 {
@@ -45,6 +61,12 @@
     border-radius: 4px;
     box-shadow: black 2px 2px 2px;
     z-index: 80;
+}
+
+#servicios
+{
+    background-color: blue;
+    margin-top: 400px;
 }
 
 @media only screen and (max-width: 600px)
